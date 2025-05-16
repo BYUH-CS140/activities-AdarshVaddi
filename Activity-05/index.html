@@ -3,85 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate Fitness Guide</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            color: white;
-            background: url('https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-        header {
-            background-color: rgba(90, 81, 81, 0.9);
-            color: white;
-            padding: 20px;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        main {
-            padding: 30px;
-            background-color: rgba(90, 119, 124, 0.6);
-        }
-
-        section {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        ol, ul {
-            display: inline-block;
-            text-align: left;
-        }
-
-        footer {
-            background-color: rgba(111, 149, 151, 0.9);
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-
-        h1, h2, h3 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-    </style>
+    <title>Activity 5</title>
 </head>
-<body>
-    <header>
-        <h1>Ultimate Fitness Guide</h1>
+<body style="background-color: #2c3e50; margin: 0; padding: 0; color: white; text-align: center; font-family: Arial, sans-serif;">
+
+    <header style="background-color: #030303; padding: 20px;">
+        <h1 style="color: #FFD700; text-align: center;">Ultimate Fitness Guide</h1>
         <nav>
-            <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#workout-steps">Workouts</a></li>
-                <li><a href="#nutrition-section">Nutrition</a></li>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 20px;">
+                <li><a href="#home" style="color: white; text-decoration: none; font-weight: bold;">Home</a></li>
+                <li><a href="#workout" style="color: white; text-decoration: none; font-weight: bold;">Workouts</a></li>
+                <li><a href="#nutrition" style="color: white; text-decoration: none; font-weight: bold;">Nutrition</a></li>
             </ul>
         </nav>
     </header>
 
-    <main id="top">
-        <section>
-            <h2>Full Body Beginner Workout</h2>
-            <img src="Gym.jpg" alt="A person doing a bodyweight workout at home" width="400">
+    <main id="home" style="padding: 30px;">
+        <section id="workout" style="max-width: 800px; margin: 0 auto;">
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Full Body Beginner Workout</h2>
 
-            <h3 id="workout-steps">Workout Steps</h3>
-            <ol>
+            <img src="Gym.jpg" alt="A person doing a bodyweight workout at home" 
+                 style="width: 400px; border-radius: 15px; box-shadow: 5px 5px 15px grey; margin-bottom: 20px;">
+
+            <h3 id="workout-steps" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Workout Steps</h3>
+            <ol style="display: inline-block; text-align: left;">
                 <li>Warm-up <mark>(5 minutes walk or jog in place)</mark></li>
                 <li>Push-ups - 3 sets of 10 reps</li>
                 <li>Bodyweight squats - 3 sets of 15 reps</li>
@@ -89,25 +34,24 @@
                 <li>Cool down and stretch - 5 minutes</li>
             </ol>
 
-            <h3>Equipment Needed</h3>
-            <ul>
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Equipment Needed</h3>
+            <ul style="display: inline-block; text-align: left;">
                 <li>Yoga mat</li>
                 <li>Water bottle</li>
                 <li>Resistance bands</li>
                 <li>Dumbbells</li>
             </ul>
 
-            <h3>Follow-Along Workout Video</h3>
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Follow-Along Workout Video</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/UoC_O3HzsH0" 
-                    frameborder="0" allowfullscreen title="Beginner Home Workout Video">
-            </iframe>
+                    frameborder="0" allowfullscreen title="Beginner Home Workout Video"></iframe>
         </section>
 
-        <section id="nutrition-section">
-            <h2>Nutrition & Sample Diet Plan</h2>
+        <section id="nutrition" style="max-width: 800px; margin: 50px auto 0;">
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nutrition & Sample Diet Plan</h2>
             <p>A balanced diet is crucial to support your fitness goals. Here's a simple daily meal plan to fuel your workouts and recovery:</p>
 
-            <ul>
+            <ul style="display: inline-block; text-align: left;">
                 <li><strong>Breakfast:</strong> Oatmeal with bananas and almond butter, boiled eggs, black coffee or green tea</li>
                 <li><strong>Snack:</strong> Greek yogurt with mixed berries</li>
                 <li><strong>Lunch:</strong> Grilled chicken breast, brown rice, and steamed vegetables</li>
@@ -118,8 +62,9 @@
         </section>
     </main>
 
-    <footer>
+    <footer style="background-color: #030303; padding: 10px;">
         <p>&copy; 2025 Adarsh Vaddi</p>
     </footer>
+
 </body>
 </html>
