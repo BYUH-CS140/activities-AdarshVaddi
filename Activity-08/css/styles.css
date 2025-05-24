@@ -1,0 +1,131 @@
+/* Step 1: Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Step 2: Body Styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #9bb46c;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Step 3: Page Header */
+#page-header {
+  background-image: url("../pattern-bg.png");
+  background-size: cover;
+  color: #26166d;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Step 4: Title */
+.title {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  border: 3px solid #26166d; /* Deep blue border */
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2); /* subtle background for contrast */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* soft shadow */
+}
+
+/* Step 5: Nav List */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+/* Step 6: Nav List Items */
+.nav-list > li {
+  padding: 0.25rem 0.75rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+/* Step 7: Nav Links */
+.nav-list a {
+  text-decoration: none;
+  color: #2e101c;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+/* Step 8: Hover Effect */
+.nav-list a:hover {
+  color: #333333;
+  background-color: #ffffff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
+
+/* Section Layout */
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Main Image */
+.workout-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Ordered & Unordered Lists */
+ol, ul {
+  text-align: left;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+/* Highlight */
+mark {
+  background-color: #ffc107;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* Step 9: Resources Box */
+.resources {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+  width: 60%;
+  margin: 2rem auto;
+  color: #333;
+}
+
+/* Step 10: Resource Items */
+.resources li {
+  margin-bottom: 0.5rem;
+}
+
+/* Highlighted Text */
+.highlight {
+  background-color: #ffe066;
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #f2f2f2; /* instead of rgb(151, 70, 70) */
+  text-align: center;
+  padding: 1rem;
+}
+
