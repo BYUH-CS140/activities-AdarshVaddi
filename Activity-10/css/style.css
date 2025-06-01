@@ -1,0 +1,97 @@
+body {
+  background-color: forestgreen; /* Fixed: was 'background color' */
+  margin: 0;
+  font-family: "Gill Sans", sans-serif; /* Fixed: typo in 'Gil Sans' */
+}
+
+header {
+  background-color: gold; /* Fixed: was 'G0ld' */
+  color: #004d00;
+  text-align: center;
+  font-size: 2em;
+  padding: 20px; /* Fixed: was 'paddding' */
+  margin: 0;
+  font-weight: bold; /* Added: to match bold header text in image */
+}
+
+.nav {
+  background-color: #2e1a1a;
+  width: 100%;
+  margin: 0;
+  padding: 0 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  margin: 0; /* Added: ensure proper spacing */
+  padding: 0;  /* Added: ensure proper spacing */
+}
+
+nav li {
+  display: inline;
+  border-right: 1px solid grey;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+  padding: 14px 16px;
+  display: inline-block; /* Added: ensures full clickable area */
+}
+
+nav a:hover { /* Fixed: was '::hover' */
+  background-color: gold;
+  color: #2e1a1a;
+}
+
+main {
+  background-color: lightgreen;
+  margin: 50px 100px; /* Fixed: missing 'px' */
+  padding: 50px;
+  border-radius: 5px; /* Added: to match rounded corners in image */
+}
+
+.garden { /* Fixed: was 'garden' selector, needed '.' for class */
+  border: 5px solid brown;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px grey;
+  height: auto; /* Fixed: was '30px', image needs flexible height */
+  width: 30%;
+  display: block; /* Added: to center image */
+  margin: 20px auto; /* Added: to center image horizontally */
+}
+
+section {
+  margin-top: 30px; /* Fixed: was 'margintop' */
+}
+
+h2 {
+  color: brown;
+  font-weight: bold; /* Added: matches bold section titles */
+}
+
+/* Added: to match dark red section headings in screenshot */
+#intro h2,
+#planning h2,
+#materials h2,
+#steps h2,
+#maintenance h2 {
+  color: #aa0000;
+}
+
+footer {
+  background-color: #2e1a1a;
+  opacity: 0.9;
+  padding: 30px 50px;
+  color: gold;
+  text-align: center; /* Added: to center footer text */
+}
