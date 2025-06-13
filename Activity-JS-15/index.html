@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Background Color</title>
+    <style>
+        .color-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .color-option {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #333;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Select a Background Color:</h2>
+    <div class="color-boxes">
+        <div class="color-option" style="background-color: lightblue;" data-color="lightblue"></div>
+        <div class="color-option" style="background-color: lightgreen;" data-color="lightgreen"></div>
+        <div class="color-option" style="background-color: lightcoral;" data-color="lightcoral"></div>
+        <div class="color-option" style="background-color: lavender;" data-color="lavender"></div>
+        <div class="color-option" style="background-color: peachpuff;" data-color="peachpuff"></div>
+        <div class="color-option" style="background-color: khaki;" data-color="khaki"></div>
+    </div>
+
+    <button id="changeColorButton">Apply Selected Color</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
