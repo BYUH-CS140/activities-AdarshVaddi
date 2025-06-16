@@ -1,0 +1,81 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Page Backgrounds */
+body.home {
+  background: linear-gradient(to bottom right, #ffd700, #ffa07a);
+}
+
+body.about {
+  background: linear-gradient(to bottom right, #98fb98, #add8e6);
+}
+
+body.game {
+  background: linear-gradient(to bottom right, #ffb6c1, #dda0dd);
+}
+
+/* Header */
+header {
+  background-color: #fff3cd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  color: #ff6347;
+}
+
+/* Navigation */
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Main Content */
+main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+main p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  background-color: #00bfff;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #333;
+}
